@@ -11,13 +11,6 @@ The customer: Trading team.
     -A Python module or modules that automate the data acquisistion and preparation process. These modules should be imported and used in your final notebook.
 # Data Science Pipeline
 
-## Planning
-- Hypotheses:
-    - $H_0$: new features will have no effect on the log error
-    - $H_a$: new features engineered using clustering will reduce logerror
-
-- Target variable "logerror" 
-
 ## Acquiring and Preparing Stock Data
 #### - Data is acquired from Yahoo finance from 2007-01-01 to 2022-06-30
 #### - Engineered features: simple moving average(sma), percent_change
@@ -34,7 +27,7 @@ The customer: Trading team.
         3. "percent_change" - percent change of the price everyday
         4. "sma" - simple moving average of the closing price
 # Data Exploration
-#### Goal: Address questions generated during planning and preparation phases
+### Goal: Address questions generated during planning and preparation phases
 #### is there visible seasonality?
 #### does any of the features have a normal distribution?
 #### does the volume have a  relationship with the Closing price?
